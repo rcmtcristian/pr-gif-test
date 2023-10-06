@@ -6,12 +6,18 @@ on:
   pull_request:
     types:
       - opened
+
 jobs:
   pr_check:
     runs-on: ubuntu-latest
     name: A job to Post comment on PR
     steps:
       - uses: actions/checkout@v2
+
+      # Add the npm install step here
+      - name: Install Dependencies
+        run: npm install
+
       - name: PR Action
         uses: ./
         env:
