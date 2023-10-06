@@ -13,6 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: PR Action
-        uses: rcmtcristian/pr-gif-test@main
-        with:
+        uses: ./
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
