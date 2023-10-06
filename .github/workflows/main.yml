@@ -12,13 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to Post comment on PR
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Code
+        uses: actions/checkout@v2 # Add this step to check out your repository's code
 
       # Add the npm install step here
       - name: Install Dependencies
         run: npm install
 
       - name: PR Action
-        uses: ./src/index.js
-        env:
+        uses: ./ # Make sure you specify the correct path to your action here
+        with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
