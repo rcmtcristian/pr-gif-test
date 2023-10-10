@@ -1,3 +1,12 @@
+function getRandomEmote() {
+  const emotes = ["😊", "👍", "🙌", "👏", "🤔", "😂", "😎", "🔥", "💡", "✨"];
+  const randomIndex = Math.floor(Math.random() * emotes.length);
+  return emotes[randomIndex];
+}
+
+// Example usage:
+const randomEmote = getRandomEmote();
+
 const reviewGifs = [
   "https://media.giphy.com/media/3oz8xQQP4ahKiyuxHy/giphy.gif",
   "https://media.giphy.com/media/12KMwdClRgh6o0/giphy.gif",
