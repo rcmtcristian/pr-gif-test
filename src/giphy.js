@@ -7,6 +7,8 @@ function getRandomEmote() {
 // Example usage:
 const randomEmote = getRandomEmote();
 
+// console.log(`Here is a random emote: ${randomEmote}`);
+
 const reviewGifs = [
   "https://media.giphy.com/media/3oz8xQQP4ahKiyuxHy/giphy.gif",
   "https://media.giphy.com/media/12KMwdClRgh6o0/giphy.gif",
@@ -15,7 +17,14 @@ const reviewGifs = [
   "https://media.giphy.com/media/xUKrrEnN9I5lnrcSMv/giphy.gif",
 ];
 
-const features = [`https://emojik.vercel.app/s/😃_${randomEmote}?size=128`];
+const features = [
+  `https://emojik.vercel.app/s/😃_${randomEmote}?size=128`,
+  `https://emojik.vercel.app/s/😃_${randomEmote}?size=128`,
+  `https://emojik.vercel.app/s/😃_${randomEmote}?size=128`,
+  `https://emojik.vercel.app/s/😃_${randomEmote}?size=128`,
+  `https://emojik.vercel.app/s/😃_${randomEmote}?size=128`,
+  `https://emojik.vercel.app/s/😃_${randomEmote}?size=128`,
+];
 
 // const features = [
 //   "https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif",
