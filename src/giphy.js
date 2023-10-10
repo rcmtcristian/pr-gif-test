@@ -6,14 +6,16 @@ const reviewGifs = [
   "https://media.giphy.com/media/xUKrrEnN9I5lnrcSMv/giphy.gif",
 ];
 
-const features = [
-  "https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif",
-  "https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif",
-  "https://media.giphy.com/media/349qKnoIBHK1i/giphy.gif",
-  "https://media.giphy.com/media/5VKbvrjxpVJCM/giphy.gif",
-  "https://media.giphy.com/media/oymRJRRiiPaVzDnIF1/giphy.gif",
-  "https://media.giphy.com/media/PI2ZELDbBa4Bq/giphy.gif",
-];
+const features = [`https://emojik.vercel.app/s/😃_${randomEmote}?size=128`];
+
+// const features = [
+//   "https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif",
+//   "https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif",
+//   "https://media.giphy.com/media/349qKnoIBHK1i/giphy.gif",
+//   "https://media.giphy.com/media/5VKbvrjxpVJCM/giphy.gif",
+//   "https://media.giphy.com/media/oymRJRRiiPaVzDnIF1/giphy.gif",
+//   "https://media.giphy.com/media/PI2ZELDbBa4Bq/giphy.gif",
+// ];
 
 const fixes = [
   "https://media.giphy.com/media/5bHIZ3ok4UpJS/giphy.gif",
