@@ -1,22 +1,22 @@
-function getRandomEmote() {
-  const emotes = ["😊", "👍", "🙌", "👏", "🤔", "😂", "😎", "🔥", "💡", "✨"];
-  const randomIndex = Math.floor(Math.random() * emotes.length);
-  return emotes[randomIndex];
-}
+// function getRandomEmote() {
+//   const emotes = ["😊", "👍", "🙌", "👏", "🤔", "😂", "😎", "🔥", "💡", "✨"];
+//   const randomIndex = Math.floor(Math.random() * emotes.length);
+//   return emotes[randomIndex];
+// }
 
-const featuresArray = [
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-];
+// const featuresArray = [
+//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+// ];
 
-function randomArray() {
-  const randomIndex = Math.floor(Math.random() * featuresArray.length);
-  return featuresArray[randomIndex];
-}
+// function randomArray() {
+//   const randomIndex = Math.floor(Math.random() * featuresArray.length);
+//   return featuresArray[randomIndex];
+// }
 
 // console.log(`Here is a random emote: ${randomEmote}`);
 
@@ -66,19 +66,3 @@ const defaults = [
 //   "https://media.giphy.com/media/xUA7aMYThXDVx4y5O0/giphy.gif",
 //   "https://media.giphy.com/media/pqcKfVvWRowVy/giphy.gif",
 // ];
-
-// module.exports = {
-//   reviewGifs,
-//   features,
-//   fixes,
-//   defaults,
-// };
-
-// function getRandomEmote() {
-//   const emotes = ["😊", "👍", "🙌", "👏", "🤔", "😂", "😎", "🔥", "💡", "✨"];
-//   const randomIndex = Math.floor(Math.random() * emotes.length);
-//   return emotes[randomIndex];
-// }
-
-// // Example usage:
-// const randomEmote = getRandomEmote();
