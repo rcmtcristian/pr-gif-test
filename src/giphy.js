@@ -4,7 +4,7 @@ function getRandomEmote() {
   return emotes[randomIndex];
 }
 
-const features = [
+const featuresArray = [
   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
@@ -13,10 +13,10 @@ const features = [
   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
 ];
 
-// function randomArray() {
-//   const randomIndex = Math.floor(Math.random() * featuresArray.length);
-//   return featuresArray[randomIndex];
-// }
+function randomArray() {
+  const randomIndex = Math.floor(Math.random() * featuresArray.length);
+  return featuresArray[randomIndex];
+}
 
 // console.log(`Here is a random emote: ${randomEmote}`);
 
@@ -37,10 +37,10 @@ const reviewGifs = [
 //   "https://media.giphy.com/media/PI2ZELDbBa4Bq/giphy.gif",
 // ];
 
-// const features = () => {
-//   const ranArray = randomArray();
-//   return ranArray;
-// };
+const features = () => {
+  const ranArray = randomArray();
+  return ranArray;
+};
 
 const fixes = [
   "https://media.giphy.com/media/5bHIZ3ok4UpJS/giphy.gif",
