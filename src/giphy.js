@@ -1,9 +1,17 @@
-// function getRandomEmote() {
-//   const emotes = ["😊", "👍", "🙌", "👏", "🤔", "😂", "😎", "🔥", "💡", "✨"];
-//   const randomIndex = Math.floor(Math.random() * emotes.length);
-//   return emotes[randomIndex];
-// }
+function getRandomEmote() {
+  const emotes = ["😊", "👍", "🙌", "👏", "🤔", "😂", "😎", "🔥", "💡", "✨"];
+  const randomIndex = Math.floor(Math.random() * emotes.length);
+  return emotes[randomIndex];
+}
 
+const features = [
+  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+];
 // const featuresArray = [
 //   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
 //   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
@@ -28,14 +36,14 @@ const reviewGifs = [
   "https://media.giphy.com/media/xUKrrEnN9I5lnrcSMv/giphy.gif",
 ];
 
-const features = [
-  "https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif",
-  "https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif",
-  "https://media.giphy.com/media/349qKnoIBHK1i/giphy.gif",
-  "https://media.giphy.com/media/5VKbvrjxpVJCM/giphy.gif",
-  "https://media.giphy.com/media/oymRJRRiiPaVzDnIF1/giphy.gif",
-  "https://media.giphy.com/media/PI2ZELDbBa4Bq/giphy.gif",
-];
+// const features = [
+//   "https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif",
+//   "https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif",
+//   "https://media.giphy.com/media/349qKnoIBHK1i/giphy.gif",
+//   "https://media.giphy.com/media/5VKbvrjxpVJCM/giphy.gif",
+//   "https://media.giphy.com/media/oymRJRRiiPaVzDnIF1/giphy.gif",
+//   "https://media.giphy.com/media/PI2ZELDbBa4Bq/giphy.gif",
+// ];
 
 // const features = () => {
 //   const ranArray = randomArray();
