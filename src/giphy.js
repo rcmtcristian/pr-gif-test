@@ -1,32 +1,17 @@
 function getRandomEmote() {
-  const emotes = ["😊", "👍", "🙌", "👏", "🤔", "😂", "😎", "🔥", "💡", "✨"];
+  const emotes = ["😊", "👍", "🙌", "👏", "🤔", "😂", "😃", "🔥", "💡", "✨"];
   const randomIndex = Math.floor(Math.random() * emotes.length);
   return emotes[randomIndex];
 }
 
 const features = [
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-  `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
+  `https://emojik.vercel.app/s/😎_${getRandomEmote()}?size=128`,
 ];
-// const featuresArray = [
-//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-//   `https://emojik.vercel.app/s/😃_${getRandomEmote()}?size=128`,
-// ];
 
 // function randomArray() {
 //   const randomIndex = Math.floor(Math.random() * featuresArray.length);
 //   return featuresArray[randomIndex];
 // }
-
-// console.log(`Here is a random emote: ${randomEmote}`);
 
 const reviewGifs = [
   "https://media.giphy.com/media/3oz8xQQP4ahKiyuxHy/giphy.gif",
