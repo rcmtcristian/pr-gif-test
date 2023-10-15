@@ -24,13 +24,15 @@ const reviewGifs = [
 const fixes = [`https://emojik.vercel.app/s/🤓_${getRandomEmote()}?size=128`];
 
 const defaults = [
-  "https://media.giphy.com/media/l3q2wJsC23ikJg9xe/giphy.gif",
-  "https://media.giphy.com/media/26gsjCZpPolPr3sBy/giphy.gif",
-  "https://media.giphy.com/media/d68IdpvmAHohx5NMEV/giphy.gif",
-  "https://media.giphy.com/media/WV9Xx9itqEIu8GQloO/giphy.gif",
-  "https://media.giphy.com/media/xUA7aMYThXDVx4y5O0/giphy.gif",
-  "https://media.giphy.com/media/pqcKfVvWRowVy/giphy.gif",
+  `https://emojik.vercel.app/s/😁_${getRandomEmote()}?size=128`,
 ];
+//   "https://media.giphy.com/media/l3q2wJsC23ikJg9xe/giphy.gif",
+//   "https://media.giphy.com/media/26gsjCZpPolPr3sBy/giphy.gif",
+//   "https://media.giphy.com/media/d68IdpvmAHohx5NMEV/giphy.gif",
+//   "https://media.giphy.com/media/WV9Xx9itqEIu8GQloO/giphy.gif",
+//   "https://media.giphy.com/media/xUA7aMYThXDVx4y5O0/giphy.gif",
+//   "https://media.giphy.com/media/pqcKfVvWRowVy/giphy.gif",
+// ];
 // const defaults = [
 
 module.exports = {
