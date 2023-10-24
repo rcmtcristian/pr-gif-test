@@ -1,3 +1,12 @@
+/**
+ * Returns a random emoji from an array of emojis.
+ *
+ * @returns {string} A random emoji from the array.
+ *
+ * @example
+ * const randomEmote = getRandomEmote();
+ * console.log(randomEmote); // Output: a random emoji from the array
+ */
 function getRandomEmote() {
   const emotes = ["😊", "🫡", "🥺", "🥳", "🤯", "😂", "😃", "🔥", "🤩", "✨"];
   const randomIndex = Math.floor(Math.random() * emotes.length);
@@ -8,12 +17,7 @@ const features = [
   `https://emojik.vercel.app/s/😎_${getRandomEmote()}?size=128`,
 ];
 
-// function randomArray() {
-//   const randomIndex = Math.floor(Math.random() * featuresArray.length);
-//   return featuresArray[randomIndex];
-// }
-
-const reviewGifs = [
+const reviewEmotes = [
   "https://media.giphy.com/media/3oz8xQQP4ahKiyuxHy/giphy.gif",
   "https://media.giphy.com/media/12KMwdClRgh6o0/giphy.gif",
   "https://media.giphy.com/media/mgqefqwSbToPe/giphy.gif",
@@ -36,7 +40,7 @@ const defaults = [
 // const defaults = [
 
 module.exports = {
-  reviewGifs,
+  reviewEmotes,
   features,
   fixes,
   defaults,

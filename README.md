@@ -1,8 +1,2 @@
-#
-jejejejejeje
-jejejejejej
-jejejejjej
-jejejejej
-jejejjej
-jejejej
-jejeje
+# Emote Generator
+## Description

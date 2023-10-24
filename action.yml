@@ -1,4 +1,4 @@
-name: 'PR gif generator'
+name: 'PR emote generator'
 description: 'Post image as comments for PRs based on type of the PR'
 author: 'test'
 branding:
