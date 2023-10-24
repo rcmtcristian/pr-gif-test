@@ -37,7 +37,6 @@ const defaults = [
 //   "https://media.giphy.com/media/xUA7aMYThXDVx4y5O0/giphy.gif",
 //   "https://media.giphy.com/media/pqcKfVvWRowVy/giphy.gif",
 // ];
-// const defaults = [
 
 module.exports = {
   reviewEmotes,
