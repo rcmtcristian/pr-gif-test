@@ -1,4 +1,6 @@
+//Core functions for setting results, logging, registering secrets and exporting variables across actions
 const core = require("@actions/core");
+//A hydrated Octokit client
 const github = require("@actions/github");
 const generateEmote = require("./emoteGenerator");
 
